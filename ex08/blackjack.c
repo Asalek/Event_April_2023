@@ -22,10 +22,7 @@ int main(int ac, char **av)
 			else if (strchr("TJDK", *av[1]) != NULL)
 				sum += 10;
 			else
-			{
-				char a = *av[1];
-				sum += atoi(&a);
-			}
+				sum += *av[1] - '0';
 			av[1]++;
 		}
 		if (sum == 21)
