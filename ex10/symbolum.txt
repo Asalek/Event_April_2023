@@ -1,0 +1,7 @@
+For this exercice you will have to write the password in a symbolum.txt file : 
+2 = K
+3 = H
+4 = 2
+5 = J
+6 = F
+7 = M
