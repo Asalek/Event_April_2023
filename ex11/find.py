@@ -11,6 +11,7 @@ pokemon_name = input('Enter a Pokemon name: ')
 response = requests.get(BASE_URL + 'pokemon/' + pokemon_name)
 
 # If the response is successful, retrieve the JSON data
+	# print
 if response.status_code == 200:
     pokemon_data = response.json()
     # Extract the relevant information from the JSON data
@@ -20,4 +21,4 @@ if response.status_code == 200:
     print('%s abilities:' % name)
     print(', '.join(abilities))
 else:
-    print('Error retrieving data')
+    print('no pokemon')
