@@ -9,12 +9,12 @@ from email import encoders
 # SMTP server details
 smtp_server = "smtp.gmail.com"
 smtp_port = 587
-smtp_username = "ayoub.salek8599@gmail.com"
+smtp_username = "asalekasalek8599@gmail.com"
 smtp_password = "owduivkmwrktfusy"
 
-to = input('Enter a reciever: ')
 # Email details
-to = [to]
+reciever = input("Enter reciever Email : ")
+to = [reciever]
 from_addr = smtp_username
 subject = "Email with attachment"
 body = "Please find attached the requested document."
